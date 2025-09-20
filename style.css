@@ -1,0 +1,124 @@
+
+        * {
+            box-sizing: border-box;
+            margin-top: 5px;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            text-decoration: none;
+        }
+        
+        body {
+           display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 176px;
+        margin-right: 20px;
+        padding: 20px;
+        }
+        .main{
+            display:flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 800px;
+        }
+         .section{
+            display:flex;
+            flex-direction: column;
+        }
+        
+        #main-head {
+            border-bottom: 1px solid #a2a9b1;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+        a:hover{
+            text-decoration: none;
+        }
+        ul{
+            margin-left:15px;
+        }
+        h1 {
+            font-size: 30px;
+            margin-bottom: 15px;
+            font-weight: normal;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+        h2 {
+            font-size: 25px;
+            font-weight: normal;
+            margin: 25px 0 15px 0;
+            border-bottom: 1px solid #a2a9b1;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+        h3 {
+            font-size: 20px;
+            margin: 20px 0 10px 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        h6{
+            font-size: 15px;
+            margin: 15px 0 5px 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+            line-height: 1.5;
+        }
+        .citat {
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-left: 4px solid #eaecf0;
+    margin-bottom: 20px
+        }
+        
+        .nav-menu {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border: 1px solid #a2a9b1;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            padding-left: 20px;
+            position: fixed;
+            left: 0;
+    margin: 0;
+    width: 15%;
+    height: 400px;
+    overflow: scroll;
+    
+
+        }
+
+        .highlight {
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 5px;
+            margin: 15px 0;
+            border: 1px solid  black
+        }
+        .mini{
+            font-size: 70%;
+            vertical-align: super;
+        }
+        .graytext{
+            font-size:18px;
+            margin-bottom: 15px;
+            text-align: justify;
+            color: rgba(0,0,0,0.4);
+        }
+        .redtext{
+            margin-bottom: 15px;
+            text-align: justify;
+            color: red;
+        }
+        .minitext{
+            margin: 15px;
+            text-align: justify;
+            font-size: 70%;
+        }
+        header{
+        margin-top:80px;
+        }
